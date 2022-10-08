@@ -91,8 +91,8 @@ a:hover {
 
 
 #bloc-0 li a:hover{
-    background: #000;
-    color: #F3976C;
+    background: #fff;
+    color: #000;
     border-radius: 25px;
     margin-left: 5px;
 }
@@ -101,8 +101,8 @@ footer p{
     font-size: large;
 }
 
-#bloc-6{
-    background-color: #000;
+.col-sm-12 h1{
+    color: #000000;
 }
 
 #bloc-7 div{
@@ -243,7 +243,7 @@ footer p{
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0);
+    color: #F3976C;
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -355,7 +355,7 @@ footer p{
 }
 
 .navbar-toggle .icon-bar {
-    background-color: rgba(0, 0, 0, .5);
+    background-color: #F3976C;
     width: 26px;
 }
 
@@ -465,7 +465,7 @@ nav .caret {
 .btn-d:hover,
 .btn-d:focus {
     color: #FFF;
-    background: rgba(0, 0, 0, .3);
+    background:#F3976C;
 }
 
 button {
@@ -524,7 +524,7 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    opacity: 1;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -704,7 +704,7 @@ p.row{
 }
 
 .cta-hero {
-    margin-top: 22px;
+    margin-bottom: 22px;
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 6px 28px;
@@ -736,7 +736,7 @@ h3 {
 }
 
 h1 {
-    color: #F3976C!important;
+    color: #F3976C;
 }
 
 h4 {
@@ -766,7 +766,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(0, 0, 0,0.8);
+    background-color: rgba(0, 0, 0,0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -777,6 +777,10 @@ h4 {
 
 .bgc-white {
     background-color: #FFFFFF;
+}
+
+.bgc-black{
+    background-color: #000000;
 }
 
 .bgc-dark-slate-blue {
@@ -792,13 +796,15 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #000000;
+    color: #F3976C!important;
+    border: 1px #FFFFFF solid;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #ffffff!important;
+    color: #000000!important;
+    border: #000000 1px solid;
 }
 
 .ltc-white {
@@ -813,8 +819,12 @@ h4 {
     color: #F3976C!important;
 }
 
+.clr-atomic-tangerine {
+    color: #F3976C!important;
+}
+
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #FFFFFF!important;
 }
 
 .icon-dark-slate-blue {
@@ -839,13 +849,6 @@ h4 {
     font-size: medium;
     font-style: italic;
 }
-
-.col-sm-12 p{
-    color: #F3976C;
-}
-
-
-
 
 
 @media (max-width: 1024px) {
