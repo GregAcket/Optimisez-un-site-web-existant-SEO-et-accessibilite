@@ -36,7 +36,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 50px 50px;
 }
 
 .bloc-md {
@@ -89,8 +89,30 @@ a:hover {
     background-attachment: fixed;
 }
 
+
+#bloc-0 li a:hover{
+    background: #000;
+    color: #F3976C;
+    border-radius: 25px;
+    margin-left: 5px;
+}
+
+footer p{
+    font-size: large;
+}
+
+#bloc-6{
+    background-color: #000;
+}
+
+#bloc-7 div{
+    display: flex;
+    flex-direction: column;
+}
+
+
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(255, 255, 255);
 }
 
 .d-bloc button:hover {
@@ -123,7 +145,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255, .7);
 }
 
 .d-bloc .a-btn:hover,
@@ -185,7 +207,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0,);
 }
 
 .d-bloc .panel button:hover,
@@ -221,7 +243,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+    color: rgba(0, 0, 0);
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -637,7 +659,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000;
 }
 
 .container {
@@ -663,7 +685,12 @@ a {
 }
 
 p {
-    font-size: 14px;
+    font-size: 15px;
+}
+
+p.row{
+    font-size: x-large;
+    margin-bottom: 50px;
 }
 
 .tight-width-whitespace {
@@ -709,7 +736,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #F3976C!important;
 }
 
 h4 {
@@ -739,7 +766,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(0, 0, 0,0.8);
     padding: 40px 40px 40px 40px;
 }
 
@@ -802,6 +829,24 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
 }
+
+.col-xs-12 > p:nth-child(1){
+    font-size: medium;
+    font-weight: 600;
+}
+
+.col-xs-12 > p:nth-child(2){
+    font-size: medium;
+    font-style: italic;
+}
+
+.col-sm-12 p{
+    color: #F3976C;
+}
+
+
+
+
 
 @media (max-width: 1024px) {
     .bloc {
@@ -901,6 +946,7 @@ h4 {
         -webkit-transform: none;
         -ms-transform: none;
     }
+
     .nav > li {
         margin-top: 0;
         border-bottom: 1px solid rgba(0, 0, 0, .1);
